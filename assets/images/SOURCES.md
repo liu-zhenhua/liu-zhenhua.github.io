@@ -23,4 +23,4 @@ Thumbnails are resized excerpts from the corresponding research works. They reta
 
 ## Portrait
 
-`me-upperbody.webp` is cropped from the user's supplied `me.jpg` (1279×1919). Crop: x=390, y=106, width=831, height=831; resized to 600×600 for the circular portrait. The original is preserved in the local workspace. No generative changes were made to the photograph.
+`me-upperbody-v2.webp` is cropped from the user's supplied `me.jpg` (1279×1919). Crop: x=390, y=46, width=831, height=831; resized to 600×600 for the circular portrait. The original is preserved in the local workspace. No generative changes were made to the photograph.
