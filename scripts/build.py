@@ -48,7 +48,8 @@ def publication(paper, owner):
     resources = "".join(f'<a href="{link_url(item["url"])}">[{text(item["label"])}]</a>' for item in links)
     distinction = f' <span class="distinction">{text(paper["distinction"])}</span>' if paper.get("distinction") else ""
     notes = f'<p class="pub-notes">{text(paper["notes"])}</p>' if paper.get("notes") else ""
-    return f'''<article class="publication" data-category="{text(paper['category'])}">
+    alternate_titles = text(" ".join(paper.get("alternative_titles", [])))
+    return f'''<article class="publication" data-category="{text(paper['category'])}" data-search="{alternate_titles}">
         <a class="pub-image-link" href="{url}" aria-label="Read {title}">{visual}</a>
         <div class="pub-content">
           <h3><a class="paper-title" href="{url}">{title}</a></h3>
@@ -72,7 +73,10 @@ def build(output):
     if profile.get("github_url"):
         profile_links.append({"label": "GitHub", "url": profile["github_url"]})
     profile_links.extend(profile.get("links", []))
-    categories = list(dict.fromkeys(paper["category"] for paper in papers))
+    present_categories = list(dict.fromkeys(paper["category"] for paper in papers))
+    preferred_categories = profile.get("publication_category_order", [])
+    categories = [category for category in preferred_categories if category in present_categories]
+    categories.extend(category for category in present_categories if category not in categories)
     controls = ""
     empty = ""
     if papers:

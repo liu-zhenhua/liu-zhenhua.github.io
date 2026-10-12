@@ -6,13 +6,18 @@
   "scholar_url": "https://scholar.google.com/citations?user=bihqxP4AAAAJ&hl=en",
   "github_url": "https://github.com/liu-zhenhua",
   "email": "zhenhualiu@microsoft.com",
-  "portrait": "",
+  "portrait": "assets/images/me-upperbody.webp",
   "bio": [
     "I am currently a Senior Researcher at Microsoft Research Asia (MSRA).",
     "Feel free to contact me if you are interested in my research or potential collaborations."
   ],
   "interests": [],
-  "publications_heading": "Selected Publications",
+  "publications_heading": "Publications",
+  "publication_category_order": [
+    "Embodied AI",
+    "Efficient AI",
+    "Computer Vision"
+  ],
   "links": [],
   "sections": []
 }

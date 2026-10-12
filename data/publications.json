@@ -33,6 +33,222 @@
     ]
   },
   {
+    "title": "TaskGround: Structured Executable Task Inference for Full-Scene Household Reasoning",
+    "short_title": "TaskGround",
+    "authors": [
+      "ZhiYuan Feng",
+      "Yu Deng",
+      "Ruichuan An",
+      "Zhenhua Liu",
+      "Qixiu Li",
+      "Keming Wu",
+      "Zhiying Du",
+      "Weijie Wang",
+      "Haoxiao Wang",
+      "Shuang Chen",
+      "Sicheng Xu",
+      "Yaobo Liang",
+      "Jiaolong Yang",
+      "Baining Guo"
+    ],
+    "venue": "arXiv",
+    "year": 2026,
+    "category": "Embodied AI",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2605.18109"
+      },
+      {
+        "label": "Project",
+        "url": "https://aaronfengzy.github.io/TaskGround/"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/AaronFengZY/TaskGround"
+      }
+    ],
+    "image": "assets/images/taskground.webp",
+    "image_alt": "TaskGround grounds the scene, infers task structure, and compiles executable actions."
+  },
+  {
+    "title": "Athena: Enhancing Multimodal Reasoning with Data-efficient Process Reward Models",
+    "short_title": "Athena",
+    "authors": [
+      "Shuai Wang",
+      "Zhenhua Liu",
+      "Jiaheng Wei",
+      "Xuanwu Yin",
+      "Dong Li",
+      "Emad Barsoum"
+    ],
+    "venue": "TMLR",
+    "year": 2026,
+    "category": "Computer Vision",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2506.09532"
+      },
+      {
+        "label": "Journal",
+        "url": "https://openreview.net/forum?id=unWmplHccF"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/AMD-AGI/Athena-PRM"
+      }
+    ],
+    "image": "assets/images/athena.webp",
+    "image_alt": "Comparison of weak and strong completers for identifying reliable reasoning-step labels."
+  },
+  {
+    "title": "Jakiro: Boosting Speculative Decoding via Decoupled MoE",
+    "short_title": "Jakiro",
+    "authors": [
+      "Haiduo Huang",
+      "Fuwei Yang",
+      "Zhenhua Liu",
+      "Pengju Ren"
+    ],
+    "venue": "ACL",
+    "year": 2026,
+    "category": "Efficient AI",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://aclanthology.org/2026.acl-long.487/"
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2502.06282"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/haiduo/Jakiro"
+      }
+    ],
+    "alternative_titles": [
+      "Jakiro: Boosting Speculative Decoding with Decoupled Multi-Head via MoE"
+    ],
+    "image": "assets/images/jakiro.webp",
+    "image_alt": "Jakiro uses decoupled experts to produce diverse draft candidates for speculative decoding."
+  },
+  {
+    "title": "Double Rounding: Nearly Lossless Adaptive Bit Switching for QAT",
+    "short_title": "Double Rounding",
+    "authors": [
+      "Haiduo Huang",
+      "Zhenhua Liu",
+      "Tian Xia",
+      "Pengju Ren"
+    ],
+    "venue": "AAAI",
+    "year": 2026,
+    "category": "Efficient AI",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1609/aaai.v40i26.39345"
+      },
+      {
+        "label": "arXiv",
+        "url": "https://arxiv.org/abs/2502.01199"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/haiduo/Double-Rounding"
+      }
+    ],
+    "alternative_titles": [
+      "Nearly Lossless Adaptive Bit Switching"
+    ],
+    "image": "assets/images/double-rounding.webp",
+    "image_alt": "Overview of adaptive bit switching using Double Rounding and adaptive learning-rate scaling."
+  },
+  {
+    "title": "SpecVLM: Fast Speculative Decoding in Vision-Language Models",
+    "short_title": "SpecVLM",
+    "authors": [
+      "Haiduo Huang",
+      "Fuwei Yang",
+      "Zhenhua Liu",
+      "Xuanwu Yin",
+      "Dong Li",
+      "Pengju Ren",
+      "Emad Barsoum"
+    ],
+    "venue": "arXiv",
+    "year": 2025,
+    "category": "Efficient AI",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2509.11815"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/haiduo/SpecVLM"
+      }
+    ],
+    "image": "assets/images/specvlm.webp",
+    "image_alt": "SpecVLM compresses visual tokens for an efficient draft model and verifies predictions with the target model."
+  },
+  {
+    "title": "Kangaroo: Lossless Self-Speculative Decoding for Accelerating LLMs via Double Early Exiting",
+    "short_title": "Kangaroo",
+    "authors": [
+      "Fangcheng Liu",
+      "Yehui Tang",
+      "Zhenhua Liu",
+      "Yunsheng Ni",
+      "Duyu Tang",
+      "Kai Han",
+      "Yunhe Wang"
+    ],
+    "venue": "NeurIPS",
+    "year": 2024,
+    "category": "Efficient AI",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2024/hash/16336d94a5ffca8de019087ab7fe403f-Abstract-Conference.html"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/Equationliu/Kangaroo"
+      }
+    ],
+    "image": "assets/images/kangaroo.webp",
+    "image_alt": "Kangaroo uses a shallow sub-network and early exits during speculative drafting."
+  },
+  {
+    "title": "GhostNetV3: Exploring the Training Strategies for Compact Models",
+    "short_title": "GhostNetV3",
+    "authors": [
+      "Zhenhua Liu",
+      "Zhiwei Hao",
+      "Kai Han",
+      "Yehui Tang",
+      "Yunhe Wang"
+    ],
+    "venue": "arXiv",
+    "year": 2024,
+    "category": "Efficient AI",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2404.11202"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/huawei-noah/Efficient-AI-Backbones/tree/master/ghostnetv3_pytorch"
+      }
+    ],
+    "image": "assets/images/ghostnetv3.webp",
+    "image_alt": "Comparison of GhostNetV2 and GhostNetV3 architectures and re-parameterized training blocks."
+  },
+  {
     "title": "A Survey on Vision Transformer",
     "short_title": "Vision Transformers",
     "authors": [
@@ -67,6 +283,56 @@
     ]
   },
   {
+    "title": "Diffusion-Based 3D Human Pose Estimation with Multi-Hypothesis Aggregation",
+    "short_title": "D3DP",
+    "authors": [
+      "Wenkang Shan",
+      "Zhenhua Liu",
+      "Xinfeng Zhang",
+      "Zhao Wang",
+      "Kai Han",
+      "Shanshe Wang",
+      "Siwei Ma",
+      "Wen Gao"
+    ],
+    "venue": "ICCV",
+    "year": 2023,
+    "category": "Computer Vision",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2303.11579"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/paTRICK-swk/D3DP"
+      }
+    ],
+    "image": "assets/images/d3dp.webp",
+    "image_alt": "The training and inference stages of diffusion-based 3D human pose estimation."
+  },
+  {
+    "title": "Differential Weight Quantization for Multi-Model Compression",
+    "short_title": "Differential Quantization",
+    "authors": [
+      "Wenhong Duan",
+      "Zhenhua Liu",
+      "Chuanmin Jia",
+      "Shanshe Wang",
+      "Siwei Ma",
+      "Wen Gao"
+    ],
+    "venue": "IEEE TMM, 25: 6397–6410",
+    "year": 2023,
+    "category": "Efficient AI",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1109/TMM.2022.3208530"
+      }
+    ]
+  },
+  {
     "title": "Instance-Aware Dynamic Neural Network Quantization",
     "short_title": "DQNet",
     "authors": [
@@ -92,6 +358,59 @@
         "url": "https://github.com/huawei-noah/Efficient-Computing/tree/master/Quantization/DynamicQuant"
       }
     ]
+  },
+  {
+    "title": "P-STMO: Pre-Trained Spatial Temporal Many-to-One Model for 3D Human Pose Estimation",
+    "short_title": "P-STMO",
+    "authors": [
+      "Wenkang Shan",
+      "Zhenhua Liu",
+      "Xinfeng Zhang",
+      "Shanshe Wang",
+      "Siwei Ma",
+      "Wen Gao"
+    ],
+    "venue": "ECCV",
+    "year": 2022,
+    "category": "Computer Vision",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2203.07628"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/paTRICK-swk/P-STMO"
+      }
+    ],
+    "image": "assets/images/pstmo.webp",
+    "image_alt": "P-STMO first learns masked pose representations, then aggregates spatial and temporal information for 3D pose estimation."
+  },
+  {
+    "title": "GhostSR: Learning Ghost Features for Efficient Image Super-Resolution",
+    "short_title": "GhostSR",
+    "authors": [
+      "Ying Nie",
+      "Kai Han",
+      "Zhenhua Liu",
+      "Chuanjian Liu",
+      "Yunhe Wang"
+    ],
+    "venue": "TMLR",
+    "year": 2022,
+    "category": "Efficient AI",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2101.08525"
+      },
+      {
+        "label": "Journal",
+        "url": "https://openreview.net/forum?id=tbd9f3HwPy"
+      }
+    ],
+    "image": "assets/images/ghostsr.webp",
+    "image_alt": "Shift operations generate ghost features for efficient image super-resolution."
   },
   {
     "title": "Post-Training Quantization for Vision Transformer",
@@ -150,5 +469,46 @@
         "url": "https://github.com/huawei-noah/Pretrained-IPT"
       }
     ]
+  },
+  {
+    "title": "Evolutionary Quantization of Neural Networks with Mixed-Precision",
+    "short_title": "Evolutionary Quantization",
+    "authors": [
+      "Zhenhua Liu",
+      "Xinfeng Zhang",
+      "Shanshe Wang",
+      "Siwei Ma",
+      "Wen Gao"
+    ],
+    "venue": "ICASSP",
+    "year": 2021,
+    "category": "Efficient AI",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://doi.org/10.1109/ICASSP39728.2021.9413631"
+      }
+    ]
+  },
+  {
+    "title": "Frequency-Domain Dynamic Pruning for Convolutional Neural Networks",
+    "short_title": "Frequency-Domain Pruning",
+    "authors": [
+      "Zhenhua Liu",
+      "Jizheng Xu",
+      "Xiulian Peng",
+      "Ruiqin Xiong"
+    ],
+    "venue": "NeurIPS",
+    "year": 2018,
+    "category": "Efficient AI",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://proceedings.neurips.cc/paper/2018/hash/a9a6653e48976138166de32772b1bf40-Abstract.html"
+      }
+    ],
+    "image": "assets/images/fdpruning.webp",
+    "image_alt": "Convolution is represented as matrix multiplication in the frequency domain."
   }
 ]

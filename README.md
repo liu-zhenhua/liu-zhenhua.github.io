@@ -14,7 +14,7 @@ python3 -m http.server 8000 --bind 127.0.0.1 --directory _site
 
 ## 更新内容
 
-- `data/profile.json`：姓名、中英文姓名、简介、邮箱、头像路径、研究兴趣和个人链接。
+- `data/profile.json`：姓名、中英文姓名、简介、邮箱、头像路径、研究兴趣、个人链接和 `publication_category_order` 分类顺序。
 - `data/publications.json`：论文条目，按年份倒序生成，分类由条目自动提取。
 - `assets/images/`：头像与论文图片。
 - `assets/style.css`：版式和配色。
@@ -56,8 +56,8 @@ python3 -m http.server 8000 --bind 127.0.0.1 --directory _site
 
 ## 当前内容来源与待补信息
 
-见 [CONTENT_SOURCES.md](CONTENT_SOURCES.md)。页面已填入用户确认的姓名、职位和邮箱，以及通过论文原文、合作者主页和官方代码仓库交叉核实的 5 篇精选论文。真实头像未提供，暂使用姓名缩写。
+见 [CONTENT_SOURCES.md](CONTENT_SOURCES.md)。页面包含姓名、职位、邮箱及 18 篇论文；头像由用户提供的 `me.jpg` 裁取上半身得到。分类顺序为 Embodied AI、Efficient AI、Computer Vision。使用正式发表版本的元数据，预印本与正式版本合并展示；标题变更可通过 `alternative_titles` 保留旧标题搜索。
 
-用户已确认这 5 篇论文均属于本人，并选择使用 `liu-zhenhua.github.io` 作为最终地址。
+用户选择使用 `liu-zhenhua.github.io` 作为最终地址。
 
 Poppins 字体按 SIL Open Font License 发行，授权文本保存在 `assets/fonts/OFL.txt`。网站未复制参考主页的个人照片、论文、履历或分析脚本。

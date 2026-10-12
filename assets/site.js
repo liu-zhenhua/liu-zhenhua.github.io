@@ -13,7 +13,7 @@
     let visible = 0;
     for (const paper of publications) {
       const matchesCategory = category === 'all' || paper.dataset.category === category;
-      const haystack = paper.textContent.toLocaleLowerCase();
+      const haystack = `${paper.textContent} ${paper.dataset.search || ''}`.toLocaleLowerCase();
       paper.hidden = !(matchesCategory && terms.every(term => haystack.includes(term)));
       if (!paper.hidden) visible++;
     }

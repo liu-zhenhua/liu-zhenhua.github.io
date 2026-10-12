@@ -27,21 +27,21 @@
         <div class="bio"><p>I am currently a Senior Researcher at Microsoft Research Asia (MSRA).</p><p>Feel free to contact me if you are interested in my research or potential collaborations.</p></div>
 
       </div>
-      <div class="portrait monogram" aria-hidden="true">ZL</div>
+      <img class="portrait" src="assets/images/me-upperbody.webp" alt="Zhenhua Liu" width="150" height="150" fetchpriority="high">
     </header>
     <section id="publications" aria-labelledby="publications-heading">
       <div class="section-heading">
-        <h2 id="publications-heading">Selected Publications</h2>
+        <h2 id="publications-heading">Publications</h2>
         <a class="section-link" href="https://scholar.google.com/citations?user=bihqxP4AAAAJ&amp;hl=en">Full list on Google Scholar <span aria-hidden="true">↗</span></a>
       </div>
       <div class="publication-tools" hidden>
-        <div class="filters" role="group" aria-label="Filter publications by topic"><button class="filter" type="button" data-filter="all" aria-pressed="true">All</button><button class="filter" type="button" data-filter="Embodied AI" aria-pressed="false">Embodied AI</button><button class="filter" type="button" data-filter="Computer Vision" aria-pressed="false">Computer Vision</button><button class="filter" type="button" data-filter="Efficient AI" aria-pressed="false">Efficient AI</button></div>
+        <div class="filters" role="group" aria-label="Filter publications by topic"><button class="filter" type="button" data-filter="all" aria-pressed="true">All</button><button class="filter" type="button" data-filter="Embodied AI" aria-pressed="false">Embodied AI</button><button class="filter" type="button" data-filter="Efficient AI" aria-pressed="false">Efficient AI</button><button class="filter" type="button" data-filter="Computer Vision" aria-pressed="false">Computer Vision</button></div>
         <label class="search" for="publication-search"><span class="sr-only">Search publications</span>
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg>
           <input id="publication-search" type="search" placeholder="Search title, author, year…" autocomplete="off">
         </label>
       </div><p class="result-count" id="result-count" role="status" aria-live="polite" hidden></p>
-      <div class="pub-list"><article class="publication" data-category="Embodied AI">
+      <div class="pub-list"><article class="publication" data-category="Embodied AI" data-search="">
         <a class="pub-image-link" href="https://arxiv.org/abs/2608.03483" aria-label="Read Continue or Replan? Bernoulli-Continuation Policy Learning for Adaptive Horizon Execution"><img class="pub-image" src="assets/images/bcp.webp" alt="BCP learns whether to continue an action chunk or replan from a new observation." loading="lazy" decoding="async" width="332" height="220"></a>
         <div class="pub-content">
           <h3><a class="paper-title" href="https://arxiv.org/abs/2608.03483">Continue or Replan? Bernoulli-Continuation Policy Learning for Adaptive Horizon Execution</a></h3>
@@ -51,7 +51,77 @@
           <p class="pub-notes">* Equal contribution.</p>
         </div>
       </article>
-<article class="publication" data-category="Computer Vision">
+<article class="publication" data-category="Embodied AI" data-search="">
+        <a class="pub-image-link" href="https://arxiv.org/abs/2605.18109" aria-label="Read TaskGround: Structured Executable Task Inference for Full-Scene Household Reasoning"><img class="pub-image" src="assets/images/taskground.webp" alt="TaskGround grounds the scene, infers task structure, and compiles executable actions." loading="lazy" decoding="async" width="332" height="220"></a>
+        <div class="pub-content">
+          <h3><a class="paper-title" href="https://arxiv.org/abs/2605.18109">TaskGround: Structured Executable Task Inference for Full-Scene Household Reasoning</a></h3>
+          <p class="authors">ZhiYuan Feng, Yu Deng, Ruichuan An, <strong>Zhenhua Liu</strong>, Qixiu Li, Keming Wu, Zhiying Du, Weijie Wang, Haoxiao Wang, Shuang Chen, Sicheng Xu, Yaobo Liang, Jiaolong Yang, Baining Guo</p>
+          <p class="venue"><em>arXiv</em> · 2026</p>
+          <nav class="pub-links" aria-label="Resources for TaskGround: Structured Executable Task Inference for Full-Scene Household Reasoning"><a href="https://arxiv.org/abs/2605.18109">[Paper]</a><a href="https://aaronfengzy.github.io/TaskGround/">[Project]</a><a href="https://github.com/AaronFengZY/TaskGround">[Code]</a></nav>
+
+        </div>
+      </article>
+<article class="publication" data-category="Computer Vision" data-search="">
+        <a class="pub-image-link" href="https://arxiv.org/abs/2506.09532" aria-label="Read Athena: Enhancing Multimodal Reasoning with Data-efficient Process Reward Models"><img class="pub-image" src="assets/images/athena.webp" alt="Comparison of weak and strong completers for identifying reliable reasoning-step labels." loading="lazy" decoding="async" width="332" height="220"></a>
+        <div class="pub-content">
+          <h3><a class="paper-title" href="https://arxiv.org/abs/2506.09532">Athena: Enhancing Multimodal Reasoning with Data-efficient Process Reward Models</a></h3>
+          <p class="authors">Shuai Wang, <strong>Zhenhua Liu</strong>, Jiaheng Wei, Xuanwu Yin, Dong Li, Emad Barsoum</p>
+          <p class="venue"><em>TMLR</em> · 2026</p>
+          <nav class="pub-links" aria-label="Resources for Athena: Enhancing Multimodal Reasoning with Data-efficient Process Reward Models"><a href="https://arxiv.org/abs/2506.09532">[Paper]</a><a href="https://openreview.net/forum?id=unWmplHccF">[Journal]</a><a href="https://github.com/AMD-AGI/Athena-PRM">[Code]</a></nav>
+
+        </div>
+      </article>
+<article class="publication" data-category="Efficient AI" data-search="Jakiro: Boosting Speculative Decoding with Decoupled Multi-Head via MoE">
+        <a class="pub-image-link" href="https://aclanthology.org/2026.acl-long.487/" aria-label="Read Jakiro: Boosting Speculative Decoding via Decoupled MoE"><img class="pub-image" src="assets/images/jakiro.webp" alt="Jakiro uses decoupled experts to produce diverse draft candidates for speculative decoding." loading="lazy" decoding="async" width="332" height="220"></a>
+        <div class="pub-content">
+          <h3><a class="paper-title" href="https://aclanthology.org/2026.acl-long.487/">Jakiro: Boosting Speculative Decoding via Decoupled MoE</a></h3>
+          <p class="authors">Haiduo Huang, Fuwei Yang, <strong>Zhenhua Liu</strong>, Pengju Ren</p>
+          <p class="venue"><em>ACL</em> · 2026</p>
+          <nav class="pub-links" aria-label="Resources for Jakiro: Boosting Speculative Decoding via Decoupled MoE"><a href="https://aclanthology.org/2026.acl-long.487/">[Paper]</a><a href="https://arxiv.org/abs/2502.06282">[arXiv]</a><a href="https://github.com/haiduo/Jakiro">[Code]</a></nav>
+
+        </div>
+      </article>
+<article class="publication" data-category="Efficient AI" data-search="Nearly Lossless Adaptive Bit Switching">
+        <a class="pub-image-link" href="https://doi.org/10.1609/aaai.v40i26.39345" aria-label="Read Double Rounding: Nearly Lossless Adaptive Bit Switching for QAT"><img class="pub-image" src="assets/images/double-rounding.webp" alt="Overview of adaptive bit switching using Double Rounding and adaptive learning-rate scaling." loading="lazy" decoding="async" width="332" height="220"></a>
+        <div class="pub-content">
+          <h3><a class="paper-title" href="https://doi.org/10.1609/aaai.v40i26.39345">Double Rounding: Nearly Lossless Adaptive Bit Switching for QAT</a></h3>
+          <p class="authors">Haiduo Huang, <strong>Zhenhua Liu</strong>, Tian Xia, Pengju Ren</p>
+          <p class="venue"><em>AAAI</em> · 2026</p>
+          <nav class="pub-links" aria-label="Resources for Double Rounding: Nearly Lossless Adaptive Bit Switching for QAT"><a href="https://doi.org/10.1609/aaai.v40i26.39345">[Paper]</a><a href="https://arxiv.org/abs/2502.01199">[arXiv]</a><a href="https://github.com/haiduo/Double-Rounding">[Code]</a></nav>
+
+        </div>
+      </article>
+<article class="publication" data-category="Efficient AI" data-search="">
+        <a class="pub-image-link" href="https://arxiv.org/abs/2509.11815" aria-label="Read SpecVLM: Fast Speculative Decoding in Vision-Language Models"><img class="pub-image" src="assets/images/specvlm.webp" alt="SpecVLM compresses visual tokens for an efficient draft model and verifies predictions with the target model." loading="lazy" decoding="async" width="332" height="220"></a>
+        <div class="pub-content">
+          <h3><a class="paper-title" href="https://arxiv.org/abs/2509.11815">SpecVLM: Fast Speculative Decoding in Vision-Language Models</a></h3>
+          <p class="authors">Haiduo Huang, Fuwei Yang, <strong>Zhenhua Liu</strong>, Xuanwu Yin, Dong Li, Pengju Ren, Emad Barsoum</p>
+          <p class="venue"><em>arXiv</em> · 2025</p>
+          <nav class="pub-links" aria-label="Resources for SpecVLM: Fast Speculative Decoding in Vision-Language Models"><a href="https://arxiv.org/abs/2509.11815">[Paper]</a><a href="https://github.com/haiduo/SpecVLM">[Code]</a></nav>
+
+        </div>
+      </article>
+<article class="publication" data-category="Efficient AI" data-search="">
+        <a class="pub-image-link" href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/16336d94a5ffca8de019087ab7fe403f-Abstract-Conference.html" aria-label="Read Kangaroo: Lossless Self-Speculative Decoding for Accelerating LLMs via Double Early Exiting"><img class="pub-image" src="assets/images/kangaroo.webp" alt="Kangaroo uses a shallow sub-network and early exits during speculative drafting." loading="lazy" decoding="async" width="332" height="220"></a>
+        <div class="pub-content">
+          <h3><a class="paper-title" href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/16336d94a5ffca8de019087ab7fe403f-Abstract-Conference.html">Kangaroo: Lossless Self-Speculative Decoding for Accelerating LLMs via Double Early Exiting</a></h3>
+          <p class="authors">Fangcheng Liu, Yehui Tang, <strong>Zhenhua Liu</strong>, Yunsheng Ni, Duyu Tang, Kai Han, Yunhe Wang</p>
+          <p class="venue"><em>NeurIPS</em> · 2024</p>
+          <nav class="pub-links" aria-label="Resources for Kangaroo: Lossless Self-Speculative Decoding for Accelerating LLMs via Double Early Exiting"><a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/16336d94a5ffca8de019087ab7fe403f-Abstract-Conference.html">[Paper]</a><a href="https://github.com/Equationliu/Kangaroo">[Code]</a></nav>
+
+        </div>
+      </article>
+<article class="publication" data-category="Efficient AI" data-search="">
+        <a class="pub-image-link" href="https://arxiv.org/abs/2404.11202" aria-label="Read GhostNetV3: Exploring the Training Strategies for Compact Models"><img class="pub-image" src="assets/images/ghostnetv3.webp" alt="Comparison of GhostNetV2 and GhostNetV3 architectures and re-parameterized training blocks." loading="lazy" decoding="async" width="332" height="220"></a>
+        <div class="pub-content">
+          <h3><a class="paper-title" href="https://arxiv.org/abs/2404.11202">GhostNetV3: Exploring the Training Strategies for Compact Models</a></h3>
+          <p class="authors"><strong>Zhenhua Liu</strong>, Zhiwei Hao, Kai Han, Yehui Tang, Yunhe Wang</p>
+          <p class="venue"><em>arXiv</em> · 2024</p>
+          <nav class="pub-links" aria-label="Resources for GhostNetV3: Exploring the Training Strategies for Compact Models"><a href="https://arxiv.org/abs/2404.11202">[Paper]</a><a href="https://github.com/huawei-noah/Efficient-AI-Backbones/tree/master/ghostnetv3_pytorch">[Code]</a></nav>
+
+        </div>
+      </article>
+<article class="publication" data-category="Computer Vision" data-search="">
         <a class="pub-image-link" href="https://arxiv.org/abs/2012.12556" aria-label="Read A Survey on Vision Transformer"><img class="pub-image" src="assets/images/vit-survey.webp" alt="A timeline of milestones in the development of Transformer models." loading="lazy" decoding="async" width="332" height="220"></a>
         <div class="pub-content">
           <h3><a class="paper-title" href="https://arxiv.org/abs/2012.12556">A Survey on Vision Transformer</a></h3>
@@ -61,7 +131,27 @@
 
         </div>
       </article>
-<article class="publication" data-category="Efficient AI">
+<article class="publication" data-category="Computer Vision" data-search="">
+        <a class="pub-image-link" href="https://arxiv.org/abs/2303.11579" aria-label="Read Diffusion-Based 3D Human Pose Estimation with Multi-Hypothesis Aggregation"><img class="pub-image" src="assets/images/d3dp.webp" alt="The training and inference stages of diffusion-based 3D human pose estimation." loading="lazy" decoding="async" width="332" height="220"></a>
+        <div class="pub-content">
+          <h3><a class="paper-title" href="https://arxiv.org/abs/2303.11579">Diffusion-Based 3D Human Pose Estimation with Multi-Hypothesis Aggregation</a></h3>
+          <p class="authors">Wenkang Shan, <strong>Zhenhua Liu</strong>, Xinfeng Zhang, Zhao Wang, Kai Han, Shanshe Wang, Siwei Ma, Wen Gao</p>
+          <p class="venue"><em>ICCV</em> · 2023</p>
+          <nav class="pub-links" aria-label="Resources for Diffusion-Based 3D Human Pose Estimation with Multi-Hypothesis Aggregation"><a href="https://arxiv.org/abs/2303.11579">[Paper]</a><a href="https://github.com/paTRICK-swk/D3DP">[Code]</a></nav>
+
+        </div>
+      </article>
+<article class="publication" data-category="Efficient AI" data-search="">
+        <a class="pub-image-link" href="https://doi.org/10.1109/TMM.2022.3208530" aria-label="Read Differential Weight Quantization for Multi-Model Compression"><span class="paper-label">Differential Quantization</span></a>
+        <div class="pub-content">
+          <h3><a class="paper-title" href="https://doi.org/10.1109/TMM.2022.3208530">Differential Weight Quantization for Multi-Model Compression</a></h3>
+          <p class="authors">Wenhong Duan, <strong>Zhenhua Liu</strong>, Chuanmin Jia, Shanshe Wang, Siwei Ma, Wen Gao</p>
+          <p class="venue"><em>IEEE TMM, 25: 6397–6410</em> · 2023</p>
+          <nav class="pub-links" aria-label="Resources for Differential Weight Quantization for Multi-Model Compression"><a href="https://doi.org/10.1109/TMM.2022.3208530">[Paper]</a></nav>
+
+        </div>
+      </article>
+<article class="publication" data-category="Efficient AI" data-search="">
         <a class="pub-image-link" href="https://openaccess.thecvf.com/content/CVPR2022/html/Liu_Instance-Aware_Dynamic_Neural_Network_Quantization_CVPR_2022_paper.html" aria-label="Read Instance-Aware Dynamic Neural Network Quantization"><img class="pub-image" src="assets/images/dynamic-quant.webp" alt="A bit controller assigns different quantization bit widths according to the input image." loading="lazy" decoding="async" width="332" height="220"></a>
         <div class="pub-content">
           <h3><a class="paper-title" href="https://openaccess.thecvf.com/content/CVPR2022/html/Liu_Instance-Aware_Dynamic_Neural_Network_Quantization_CVPR_2022_paper.html">Instance-Aware Dynamic Neural Network Quantization</a></h3>
@@ -71,7 +161,27 @@
 
         </div>
       </article>
-<article class="publication" data-category="Efficient AI">
+<article class="publication" data-category="Computer Vision" data-search="">
+        <a class="pub-image-link" href="https://arxiv.org/abs/2203.07628" aria-label="Read P-STMO: Pre-Trained Spatial Temporal Many-to-One Model for 3D Human Pose Estimation"><img class="pub-image" src="assets/images/pstmo.webp" alt="P-STMO first learns masked pose representations, then aggregates spatial and temporal information for 3D pose estimation." loading="lazy" decoding="async" width="332" height="220"></a>
+        <div class="pub-content">
+          <h3><a class="paper-title" href="https://arxiv.org/abs/2203.07628">P-STMO: Pre-Trained Spatial Temporal Many-to-One Model for 3D Human Pose Estimation</a></h3>
+          <p class="authors">Wenkang Shan, <strong>Zhenhua Liu</strong>, Xinfeng Zhang, Shanshe Wang, Siwei Ma, Wen Gao</p>
+          <p class="venue"><em>ECCV</em> · 2022</p>
+          <nav class="pub-links" aria-label="Resources for P-STMO: Pre-Trained Spatial Temporal Many-to-One Model for 3D Human Pose Estimation"><a href="https://arxiv.org/abs/2203.07628">[Paper]</a><a href="https://github.com/paTRICK-swk/P-STMO">[Code]</a></nav>
+
+        </div>
+      </article>
+<article class="publication" data-category="Efficient AI" data-search="">
+        <a class="pub-image-link" href="https://arxiv.org/abs/2101.08525" aria-label="Read GhostSR: Learning Ghost Features for Efficient Image Super-Resolution"><img class="pub-image" src="assets/images/ghostsr.webp" alt="Shift operations generate ghost features for efficient image super-resolution." loading="lazy" decoding="async" width="332" height="220"></a>
+        <div class="pub-content">
+          <h3><a class="paper-title" href="https://arxiv.org/abs/2101.08525">GhostSR: Learning Ghost Features for Efficient Image Super-Resolution</a></h3>
+          <p class="authors">Ying Nie, Kai Han, <strong>Zhenhua Liu</strong>, Chuanjian Liu, Yunhe Wang</p>
+          <p class="venue"><em>TMLR</em> · 2022</p>
+          <nav class="pub-links" aria-label="Resources for GhostSR: Learning Ghost Features for Efficient Image Super-Resolution"><a href="https://arxiv.org/abs/2101.08525">[Paper]</a><a href="https://openreview.net/forum?id=tbd9f3HwPy">[Journal]</a></nav>
+
+        </div>
+      </article>
+<article class="publication" data-category="Efficient AI" data-search="">
         <a class="pub-image-link" href="https://proceedings.neurips.cc/paper/2021/hash/ec8956637a99787bd197eacd77acce5e-Abstract.html" aria-label="Read Post-Training Quantization for Vision Transformer"><img class="pub-image" src="assets/images/vit-ptq.webp" alt="Mixed precision quantization preserves similarity and the ranking of self-attention scores." loading="lazy" decoding="async" width="332" height="220"></a>
         <div class="pub-content">
           <h3><a class="paper-title" href="https://proceedings.neurips.cc/paper/2021/hash/ec8956637a99787bd197eacd77acce5e-Abstract.html">Post-Training Quantization for Vision Transformer</a></h3>
@@ -81,13 +191,33 @@
 
         </div>
       </article>
-<article class="publication" data-category="Computer Vision">
+<article class="publication" data-category="Computer Vision" data-search="">
         <a class="pub-image-link" href="https://openaccess.thecvf.com/content/CVPR2021/html/Chen_Pre-Trained_Image_Processing_Transformer_CVPR_2021_paper.html" aria-label="Read Pre-Trained Image Processing Transformer"><img class="pub-image" src="assets/images/ipt.webp" alt="The IPT architecture shares a Transformer across denoising, deraining, and super-resolution tasks." loading="lazy" decoding="async" width="332" height="220"></a>
         <div class="pub-content">
           <h3><a class="paper-title" href="https://openaccess.thecvf.com/content/CVPR2021/html/Chen_Pre-Trained_Image_Processing_Transformer_CVPR_2021_paper.html">Pre-Trained Image Processing Transformer</a></h3>
           <p class="authors">Hanting Chen, Yunhe Wang, Tianyu Guo, Chang Xu, Yiping Deng, <strong>Zhenhua Liu</strong>, Siwei Ma, Chunjing Xu, Chao Xu, Wen Gao</p>
           <p class="venue"><em>CVPR</em> · 2021</p>
           <nav class="pub-links" aria-label="Resources for Pre-Trained Image Processing Transformer"><a href="https://openaccess.thecvf.com/content/CVPR2021/html/Chen_Pre-Trained_Image_Processing_Transformer_CVPR_2021_paper.html">[Paper]</a><a href="https://github.com/huawei-noah/Pretrained-IPT">[Code]</a></nav>
+
+        </div>
+      </article>
+<article class="publication" data-category="Efficient AI" data-search="">
+        <a class="pub-image-link" href="https://doi.org/10.1109/ICASSP39728.2021.9413631" aria-label="Read Evolutionary Quantization of Neural Networks with Mixed-Precision"><span class="paper-label">Evolutionary Quantization</span></a>
+        <div class="pub-content">
+          <h3><a class="paper-title" href="https://doi.org/10.1109/ICASSP39728.2021.9413631">Evolutionary Quantization of Neural Networks with Mixed-Precision</a></h3>
+          <p class="authors"><strong>Zhenhua Liu</strong>, Xinfeng Zhang, Shanshe Wang, Siwei Ma, Wen Gao</p>
+          <p class="venue"><em>ICASSP</em> · 2021</p>
+          <nav class="pub-links" aria-label="Resources for Evolutionary Quantization of Neural Networks with Mixed-Precision"><a href="https://doi.org/10.1109/ICASSP39728.2021.9413631">[Paper]</a></nav>
+
+        </div>
+      </article>
+<article class="publication" data-category="Efficient AI" data-search="">
+        <a class="pub-image-link" href="https://proceedings.neurips.cc/paper/2018/hash/a9a6653e48976138166de32772b1bf40-Abstract.html" aria-label="Read Frequency-Domain Dynamic Pruning for Convolutional Neural Networks"><img class="pub-image" src="assets/images/fdpruning.webp" alt="Convolution is represented as matrix multiplication in the frequency domain." loading="lazy" decoding="async" width="332" height="220"></a>
+        <div class="pub-content">
+          <h3><a class="paper-title" href="https://proceedings.neurips.cc/paper/2018/hash/a9a6653e48976138166de32772b1bf40-Abstract.html">Frequency-Domain Dynamic Pruning for Convolutional Neural Networks</a></h3>
+          <p class="authors"><strong>Zhenhua Liu</strong>, Jizheng Xu, Xiulian Peng, Ruiqin Xiong</p>
+          <p class="venue"><em>NeurIPS</em> · 2018</p>
+          <nav class="pub-links" aria-label="Resources for Frequency-Domain Dynamic Pruning for Convolutional Neural Networks"><a href="https://proceedings.neurips.cc/paper/2018/hash/a9a6653e48976138166de32772b1bf40-Abstract.html">[Paper]</a></nav>
 
         </div>
       </article></div>
