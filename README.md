@@ -43,6 +43,8 @@ python3 -m http.server 8000 --bind 127.0.0.1 --directory _site
 
 `profile.json` 中的 `sections` 可以添加教育经历、学术服务等已确认信息：每项包含 `title` 和字符串数组 `items`。未提供的栏目不显示。没有真实头像时显示姓名缩写，没有论文数据时提供 Scholar 入口。
 
+`bio` 段落和 `sections` 条目支持用 `**文字**` 加粗；其他 HTML 会作为普通文本转义。
+
 ## GitHub Pages
 
 仓库内已包含 `.github/workflows/pages.yml`：推送到 `main` 后用 Python 构建，再通过 GitHub Actions 部署 `_site`。只上传生成的静态页面与素材。

@@ -1,14 +1,15 @@
 {
   "name": "Zhenhua Liu",
   "native_name": "刘振华",
-  "description": "Zhenhua Liu (刘振华), Senior Researcher at Microsoft Research Asia (MSRA). Research and publications.",
+  "description": "Zhenhua Liu (刘振华), Senior Researcher at Microsoft Research Asia (MSRA), working on Embodied AI. Research and publications.",
   "site_url": "https://liu-zhenhua.github.io/",
   "scholar_url": "https://scholar.google.com/citations?user=bihqxP4AAAAJ&hl=en",
   "github_url": "https://github.com/liu-zhenhua",
   "email": "zhenhualiu@microsoft.com",
   "portrait": "assets/images/me-upperbody-v2.webp",
   "bio": [
-    "I am currently a Senior Researcher at Microsoft Research Asia (MSRA).",
+    "I am currently a Senior Researcher at **Microsoft Research Asia (MSRA)**. Previously, I worked at AMD and Huawei's Noah's Ark Lab.",
+    "I received my Ph.D. from Peking University in 2022, advised by Prof. Wen Gao and Prof. Siwei Ma. My current research focuses on Embodied AI.",
     "Feel free to contact me if you are interested in my research or potential collaborations."
   ],
   "interests": [],
@@ -23,7 +24,7 @@
     {
       "title": "Academic Services",
       "items": [
-        "Area Chair: ICLR, CVPR, NeurIPS",
+        "**Area Chair**: ICLR, CVPR, NeurIPS",
         "Conference Reviewer: CVPR, ICCV, ECCV, NeurIPS, ICASSP",
         "Journal Reviewer: TPAMI, IJCV, TIP"
       ]

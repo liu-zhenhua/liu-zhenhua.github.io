@@ -16,6 +16,11 @@ def text(value):
     return escape(str(value), quote=True)
 
 
+def formatted_text(value):
+    """Support **bold** in profile prose while escaping all supplied HTML."""
+    return re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", text(value))
+
+
 def link_url(value):
     if urlparse(value).scheme not in {"https", "mailto"}:
         raise ValueError(f"Expected an HTTPS or mailto link: {value}")
@@ -106,7 +111,7 @@ def build(output):
     extra = ""
     for section in profile.get("sections", []):
         extra += f'<section><div class="section-heading"><h2>{text(section["title"])}</h2></div><ul class="service-list">'
-        extra += "".join(f'<li>{text(item)}</li>' for item in section["items"]) + '</ul></section>'
+        extra += "".join(f'<li>{formatted_text(item)}</li>' for item in section["items"]) + '</ul></section>'
     site_url = profile.get("site_url", "")
     canonical = f'<link rel="canonical" href="{link_url(site_url)}">\n  <meta property="og:url" content="{link_url(site_url)}">' if site_url else ""
     structured = {"@context": "https://schema.org", "@type": "Person", "name": name, "sameAs": [item["url"] for item in profile_links if item["url"].startswith("https:")]}
@@ -119,7 +124,7 @@ def build(output):
         "canonical": canonical,
         "structured_data": json.dumps(structured, ensure_ascii=False).replace("<", "\\u003c"),
         "profile_links": "".join(f'<a href="{link_url(item["url"])}">{text(item["label"])}</a>' for item in profile_links),
-        "bio": "".join(f'<p>{text(paragraph)}</p>' for paragraph in profile["bio"]),
+        "bio": "".join(f'<p>{formatted_text(paragraph)}</p>' for paragraph in profile["bio"]),
         "interests": interests_html,
         "portrait": portrait,
         "publications_heading": text(profile.get("publications_heading", "Publications")),

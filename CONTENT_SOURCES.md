@@ -6,6 +6,7 @@
 
 - 姓名：Zhenhua Liu（刘振华）。
 - 职位及单位：Senior Researcher, Microsoft Research Asia (MSRA)。
+- 用户补充的简介：此前在 AMD 和华为诺亚方舟实验室工作，2022 年于北京大学取得博士学位，导师为高文教授和 Siwei Ma 教授，目前主要研究方向为 Embodied AI。
 - 联系邮箱：zhenhualiu@microsoft.com。
 - Google Scholar：https://scholar.google.com/citations?user=bihqxP4AAAAJ&hl=zh-CN&oi=ao 。
 - 用户确认最初 5 篇论文均属于本人，并补充了 P-STMO、D3DP、Frequency-Domain Dynamic Pruning、GhostNetV3、Evolutionary Quantization、Differential Weight Quantization、SpecVLM、Athena、Jakiro、Double Rounding、TaskGround 共 11 个标题；另通过正式出版记录补入 GhostSR 和 Kangaroo，共 18 篇。
