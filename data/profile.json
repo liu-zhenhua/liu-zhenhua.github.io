@@ -19,5 +19,14 @@
     "Computer Vision"
   ],
   "links": [],
-  "sections": []
+  "sections": [
+    {
+      "title": "Academic Services",
+      "items": [
+        "Area Chair: ICLR, CVPR, NeurIPS",
+        "Conference Reviewer: CVPR, ICCV, ECCV, NeurIPS, ICASSP",
+        "Journal Reviewer: TPAMI, IJCV, TIP"
+      ]
+    }
+  ]
 }

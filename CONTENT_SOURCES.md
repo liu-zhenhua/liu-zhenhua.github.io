@@ -11,6 +11,7 @@
 - 用户确认最初 5 篇论文均属于本人，并补充了 P-STMO、D3DP、Frequency-Domain Dynamic Pruning、GhostNetV3、Evolutionary Quantization、Differential Weight Quantization、SpecVLM、Athena、Jakiro、Double Rounding、TaskGround 共 11 个标题；另通过正式出版记录补入 GhostSR 和 Kangaroo，共 18 篇。
 - 用户提供 `me.jpg`，要求裁取上半身作为头像。原图保留在本地 `../homepage-review/assets/me.jpg`，发布的是去除元数据后导出的 600×600 WebP 裁图。
 - 最终主页地址：https://liu-zhenhua.github.io/ 。
+- Academic Services 由用户提供：Area Chair — ICLR、CVPR、NeurIPS；Conference Reviewer — CVPR、ICCV、ECCV、NeurIPS、ICASSP；Journal Reviewer — TPAMI、IJCV、TIP。
 
 ## 设计参考
 
