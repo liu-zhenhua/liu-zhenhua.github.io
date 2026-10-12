@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="{{name}}">
+  <meta name="description" content="{{description}}">
+  <meta name="theme-color" content="#176bc0">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{name}} | Academic Homepage">
+  <meta property="og:description" content="{{description}}">
+  {{canonical}}
+  <title>{{name}} | Academic Homepage</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/site.js" defer></script>
+  <script type="application/ld+json">{{structured_data}}</script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#publications">Skip to publications</a>
+  <main class="container">
+    <header class="profile" aria-labelledby="name">
+      <div class="profile-text">
+        <h1 id="name">{{name}}{{native_name}}</h1>
+        <nav class="profile-links" aria-label="Profile links">{{profile_links}}</nav>
+        <div class="bio">{{bio}}</div>
+        {{interests}}
+      </div>
+      {{portrait}}
+    </header>
+    <section id="publications" aria-labelledby="publications-heading">
+      <div class="section-heading">
+        <h2 id="publications-heading">{{publications_heading}}</h2>
+        <a class="section-link" href="{{scholar_url}}">Full list on Google Scholar <span aria-hidden="true">↗</span></a>
+      </div>
+      {{publication_controls}}
+      <div class="pub-list">{{publications}}</div>
+      {{publication_empty_state}}
+    </section>
+    {{additional_sections}}
+    <footer class="footer">
+      <p>© {{year}} {{name}} · <a href="#top">Back to top ↑</a></p>
+      <p>Design inspired by <a href="https://sicxu.github.io/">Sicheng Xu</a></p>
+    </footer>
+  </main>
+</body>
+</html>
