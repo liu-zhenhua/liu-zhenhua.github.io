@@ -1,1 +1,154 @@
-[]
+[
+  {
+    "title": "Continue or Replan? Bernoulli-Continuation Policy Learning for Adaptive Horizon Execution",
+    "short_title": "BCP",
+    "authors": [
+      "Weichen Xu*",
+      "Zhenhua Liu*",
+      "Lin Luo",
+      "Yaobo Liang",
+      "Chengtang Yao",
+      "Qingyu Mei",
+      "Jian Cao",
+      "Xixin Cao",
+      "Xing Zhang",
+      "Jiaolong Yang",
+      "Baining Guo"
+    ],
+    "venue": "arXiv",
+    "year": 2026,
+    "category": "Embodied AI",
+    "image": "assets/images/bcp.webp",
+    "image_alt": "BCP learns whether to continue an action chunk or replan from a new observation.",
+    "notes": "* Equal contribution.",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2608.03483"
+      },
+      {
+        "label": "Project",
+        "url": "https://fleetfootwork.github.io/BCP/"
+      }
+    ]
+  },
+  {
+    "title": "A Survey on Vision Transformer",
+    "short_title": "Vision Transformers",
+    "authors": [
+      "Kai Han",
+      "Yunhe Wang",
+      "Hanting Chen",
+      "Xinghao Chen",
+      "Jianyuan Guo",
+      "Zhenhua Liu",
+      "Yehui Tang",
+      "An Xiao",
+      "Chunjing Xu",
+      "Yixing Xu",
+      "Zhaohui Yang",
+      "Yiman Zhang",
+      "Dacheng Tao"
+    ],
+    "venue": "IEEE TPAMI, 45(1): 87–110",
+    "year": 2023,
+    "category": "Computer Vision",
+    "image": "assets/images/vit-survey.webp",
+    "image_alt": "A timeline of milestones in the development of Transformer models.",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://arxiv.org/abs/2012.12556"
+      },
+      {
+        "label": "Journal",
+        "url": "https://doi.org/10.1109/TPAMI.2022.3152247"
+      }
+    ]
+  },
+  {
+    "title": "Instance-Aware Dynamic Neural Network Quantization",
+    "short_title": "DQNet",
+    "authors": [
+      "Zhenhua Liu",
+      "Yunhe Wang",
+      "Kai Han",
+      "Siwei Ma",
+      "Wen Gao"
+    ],
+    "venue": "CVPR",
+    "year": 2022,
+    "distinction": "Oral Presentation",
+    "category": "Efficient AI",
+    "image": "assets/images/dynamic-quant.webp",
+    "image_alt": "A bit controller assigns different quantization bit widths according to the input image.",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://openaccess.thecvf.com/content/CVPR2022/html/Liu_Instance-Aware_Dynamic_Neural_Network_Quantization_CVPR_2022_paper.html"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/huawei-noah/Efficient-Computing/tree/master/Quantization/DynamicQuant"
+      }
+    ]
+  },
+  {
+    "title": "Post-Training Quantization for Vision Transformer",
+    "short_title": "ViT-PTQ",
+    "authors": [
+      "Zhenhua Liu",
+      "Yunhe Wang",
+      "Kai Han",
+      "Wei Zhang",
+      "Siwei Ma",
+      "Wen Gao"
+    ],
+    "venue": "NeurIPS",
+    "year": 2021,
+    "category": "Efficient AI",
+    "image": "assets/images/vit-ptq.webp",
+    "image_alt": "Mixed precision quantization preserves similarity and the ranking of self-attention scores.",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://proceedings.neurips.cc/paper/2021/hash/ec8956637a99787bd197eacd77acce5e-Abstract.html"
+      },
+      {
+        "label": "PDF",
+        "url": "https://proceedings.neurips.cc/paper/2021/file/ec8956637a99787bd197eacd77acce5e-Paper.pdf"
+      }
+    ]
+  },
+  {
+    "title": "Pre-Trained Image Processing Transformer",
+    "short_title": "IPT",
+    "authors": [
+      "Hanting Chen",
+      "Yunhe Wang",
+      "Tianyu Guo",
+      "Chang Xu",
+      "Yiping Deng",
+      "Zhenhua Liu",
+      "Siwei Ma",
+      "Chunjing Xu",
+      "Chao Xu",
+      "Wen Gao"
+    ],
+    "venue": "CVPR",
+    "year": 2021,
+    "category": "Computer Vision",
+    "image": "assets/images/ipt.webp",
+    "image_alt": "The IPT architecture shares a Transformer across denoising, deraining, and super-resolution tasks.",
+    "links": [
+      {
+        "label": "Paper",
+        "url": "https://openaccess.thecvf.com/content/CVPR2021/html/Chen_Pre-Trained_Image_Processing_Transformer_CVPR_2021_paper.html"
+      },
+      {
+        "label": "Code",
+        "url": "https://github.com/huawei-noah/Pretrained-IPT"
+      }
+    ]
+  }
+]

@@ -9,12 +9,13 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Zhenhua Liu | Academic Homepage">
   <meta property="og:description" content="Zhenhua Liu (刘振华), Senior Researcher at Microsoft Research Asia (MSRA). Research and publications.">
-
+  <link rel="canonical" href="https://zhliu.github.io/">
+  <meta property="og:url" content="https://zhliu.github.io/">
   <title>Zhenhua Liu | Academic Homepage</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/style.css">
   <script src="assets/site.js" defer></script>
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Zhenhua Liu", "sameAs": ["https://scholar.google.com/citations?user=bihqxP4AAAAJ&hl=en", "https://github.com/liu-zhenhua"]}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Zhenhua Liu", "sameAs": ["https://scholar.google.com/citations?user=bihqxP4AAAAJ&hl=en", "https://github.com/liu-zhenhua"], "url": "https://zhliu.github.io/"}</script>
 </head>
 <body id="top">
   <a class="skip-link" href="#publications">Skip to publications</a>
@@ -30,16 +31,68 @@
     </header>
     <section id="publications" aria-labelledby="publications-heading">
       <div class="section-heading">
-        <h2 id="publications-heading">Publications</h2>
+        <h2 id="publications-heading">Selected Publications</h2>
         <a class="section-link" href="https://scholar.google.com/citations?user=bihqxP4AAAAJ&amp;hl=en">Full list on Google Scholar <span aria-hidden="true">↗</span></a>
       </div>
+      <div class="publication-tools" hidden>
+        <div class="filters" role="group" aria-label="Filter publications by topic"><button class="filter" type="button" data-filter="all" aria-pressed="true">All</button><button class="filter" type="button" data-filter="Embodied AI" aria-pressed="false">Embodied AI</button><button class="filter" type="button" data-filter="Computer Vision" aria-pressed="false">Computer Vision</button><button class="filter" type="button" data-filter="Efficient AI" aria-pressed="false">Efficient AI</button></div>
+        <label class="search" for="publication-search"><span class="sr-only">Search publications</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg>
+          <input id="publication-search" type="search" placeholder="Search title, author, year…" autocomplete="off">
+        </label>
+      </div><p class="result-count" id="result-count" role="status" aria-live="polite" hidden></p>
+      <div class="pub-list"><article class="publication" data-category="Embodied AI">
+        <a class="pub-image-link" href="https://arxiv.org/abs/2608.03483" aria-label="Read Continue or Replan? Bernoulli-Continuation Policy Learning for Adaptive Horizon Execution"><img class="pub-image" src="assets/images/bcp.webp" alt="BCP learns whether to continue an action chunk or replan from a new observation." loading="lazy" decoding="async" width="332" height="220"></a>
+        <div class="pub-content">
+          <h3><a class="paper-title" href="https://arxiv.org/abs/2608.03483">Continue or Replan? Bernoulli-Continuation Policy Learning for Adaptive Horizon Execution</a></h3>
+          <p class="authors">Weichen Xu*, <strong>Zhenhua Liu*</strong>, Lin Luo, Yaobo Liang, Chengtang Yao, Qingyu Mei, Jian Cao, Xixin Cao, Xing Zhang, Jiaolong Yang, Baining Guo</p>
+          <p class="venue"><em>arXiv</em> · 2026</p>
+          <nav class="pub-links" aria-label="Resources for Continue or Replan? Bernoulli-Continuation Policy Learning for Adaptive Horizon Execution"><a href="https://arxiv.org/abs/2608.03483">[Paper]</a><a href="https://fleetfootwork.github.io/BCP/">[Project]</a></nav>
+          <p class="pub-notes">* Equal contribution.</p>
+        </div>
+      </article>
+<article class="publication" data-category="Computer Vision">
+        <a class="pub-image-link" href="https://arxiv.org/abs/2012.12556" aria-label="Read A Survey on Vision Transformer"><img class="pub-image" src="assets/images/vit-survey.webp" alt="A timeline of milestones in the development of Transformer models." loading="lazy" decoding="async" width="332" height="220"></a>
+        <div class="pub-content">
+          <h3><a class="paper-title" href="https://arxiv.org/abs/2012.12556">A Survey on Vision Transformer</a></h3>
+          <p class="authors">Kai Han, Yunhe Wang, Hanting Chen, Xinghao Chen, Jianyuan Guo, <strong>Zhenhua Liu</strong>, Yehui Tang, An Xiao, Chunjing Xu, Yixing Xu, Zhaohui Yang, Yiman Zhang, Dacheng Tao</p>
+          <p class="venue"><em>IEEE TPAMI, 45(1): 87–110</em> · 2023</p>
+          <nav class="pub-links" aria-label="Resources for A Survey on Vision Transformer"><a href="https://arxiv.org/abs/2012.12556">[Paper]</a><a href="https://doi.org/10.1109/TPAMI.2022.3152247">[Journal]</a></nav>
 
-      <div class="pub-list"><div class="scholar-card">
-          <div class="scholar-symbol" aria-hidden="true"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="m2 9 10-6 10 6-10 6L2 9Z"/><path d="M6 12v6c4 3 8 3 12 0v-6M22 9v9"/></svg></div>
-          <div><h3>Research &amp; publications</h3><p>Explore my publications, coauthors, and citation information on Google Scholar.</p>
-          <a href="https://scholar.google.com/citations?user=bihqxP4AAAAJ&amp;hl=en">View Google Scholar profile <span aria-hidden="true">↗</span></a></div>
-        </div></div>
+        </div>
+      </article>
+<article class="publication" data-category="Efficient AI">
+        <a class="pub-image-link" href="https://openaccess.thecvf.com/content/CVPR2022/html/Liu_Instance-Aware_Dynamic_Neural_Network_Quantization_CVPR_2022_paper.html" aria-label="Read Instance-Aware Dynamic Neural Network Quantization"><img class="pub-image" src="assets/images/dynamic-quant.webp" alt="A bit controller assigns different quantization bit widths according to the input image." loading="lazy" decoding="async" width="332" height="220"></a>
+        <div class="pub-content">
+          <h3><a class="paper-title" href="https://openaccess.thecvf.com/content/CVPR2022/html/Liu_Instance-Aware_Dynamic_Neural_Network_Quantization_CVPR_2022_paper.html">Instance-Aware Dynamic Neural Network Quantization</a></h3>
+          <p class="authors"><strong>Zhenhua Liu</strong>, Yunhe Wang, Kai Han, Siwei Ma, Wen Gao</p>
+          <p class="venue"><em>CVPR</em> · 2022 <span class="distinction">Oral Presentation</span></p>
+          <nav class="pub-links" aria-label="Resources for Instance-Aware Dynamic Neural Network Quantization"><a href="https://openaccess.thecvf.com/content/CVPR2022/html/Liu_Instance-Aware_Dynamic_Neural_Network_Quantization_CVPR_2022_paper.html">[Paper]</a><a href="https://github.com/huawei-noah/Efficient-Computing/tree/master/Quantization/DynamicQuant">[Code]</a></nav>
 
+        </div>
+      </article>
+<article class="publication" data-category="Efficient AI">
+        <a class="pub-image-link" href="https://proceedings.neurips.cc/paper/2021/hash/ec8956637a99787bd197eacd77acce5e-Abstract.html" aria-label="Read Post-Training Quantization for Vision Transformer"><img class="pub-image" src="assets/images/vit-ptq.webp" alt="Mixed precision quantization preserves similarity and the ranking of self-attention scores." loading="lazy" decoding="async" width="332" height="220"></a>
+        <div class="pub-content">
+          <h3><a class="paper-title" href="https://proceedings.neurips.cc/paper/2021/hash/ec8956637a99787bd197eacd77acce5e-Abstract.html">Post-Training Quantization for Vision Transformer</a></h3>
+          <p class="authors"><strong>Zhenhua Liu</strong>, Yunhe Wang, Kai Han, Wei Zhang, Siwei Ma, Wen Gao</p>
+          <p class="venue"><em>NeurIPS</em> · 2021</p>
+          <nav class="pub-links" aria-label="Resources for Post-Training Quantization for Vision Transformer"><a href="https://proceedings.neurips.cc/paper/2021/hash/ec8956637a99787bd197eacd77acce5e-Abstract.html">[Paper]</a><a href="https://proceedings.neurips.cc/paper/2021/file/ec8956637a99787bd197eacd77acce5e-Paper.pdf">[PDF]</a></nav>
+
+        </div>
+      </article>
+<article class="publication" data-category="Computer Vision">
+        <a class="pub-image-link" href="https://openaccess.thecvf.com/content/CVPR2021/html/Chen_Pre-Trained_Image_Processing_Transformer_CVPR_2021_paper.html" aria-label="Read Pre-Trained Image Processing Transformer"><img class="pub-image" src="assets/images/ipt.webp" alt="The IPT architecture shares a Transformer across denoising, deraining, and super-resolution tasks." loading="lazy" decoding="async" width="332" height="220"></a>
+        <div class="pub-content">
+          <h3><a class="paper-title" href="https://openaccess.thecvf.com/content/CVPR2021/html/Chen_Pre-Trained_Image_Processing_Transformer_CVPR_2021_paper.html">Pre-Trained Image Processing Transformer</a></h3>
+          <p class="authors">Hanting Chen, Yunhe Wang, Tianyu Guo, Chang Xu, Yiping Deng, <strong>Zhenhua Liu</strong>, Siwei Ma, Chunjing Xu, Chao Xu, Wen Gao</p>
+          <p class="venue"><em>CVPR</em> · 2021</p>
+          <nav class="pub-links" aria-label="Resources for Pre-Trained Image Processing Transformer"><a href="https://openaccess.thecvf.com/content/CVPR2021/html/Chen_Pre-Trained_Image_Processing_Transformer_CVPR_2021_paper.html">[Paper]</a><a href="https://github.com/huawei-noah/Pretrained-IPT">[Code]</a></nav>
+
+        </div>
+      </article></div>
+      <div class="empty-state" id="empty-state" hidden>No publications match your search.
+        <button class="filter" id="reset-filters" type="button">Reset filters</button></div>
     </section>
 
     <footer class="footer">

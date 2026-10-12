@@ -56,6 +56,8 @@ python3 -m http.server 8000 --bind 127.0.0.1 --directory _site
 
 ## 当前内容来源与待补信息
 
-见 [CONTENT_SOURCES.md](CONTENT_SOURCES.md)。目前未部署，最终账号/域名仍待确认。不要把页面框架就绪理解为个人履历或论文已核实。
+见 [CONTENT_SOURCES.md](CONTENT_SOURCES.md)。页面已填入用户确认的姓名、职位和邮箱，以及通过论文原文、合作者主页和官方代码仓库交叉核实的 5 篇精选论文。真实头像未提供，暂使用姓名缩写。
+
+站点已按用户指定的 `https://zhliu.github.io/` 配置，尚未部署；当前登录账号 `liu-zhenhua` 缺少目标账号 `zhliu` 的发布权限。若最终改用 `liu-zhenhua.github.io`，需同时修改仓库名称和 `site_url`，然后重新构建。
 
 Poppins 字体按 SIL Open Font License 发行，授权文本保存在 `assets/fonts/OFL.txt`。网站未复制参考主页的个人照片、论文、履历或分析脚本。
