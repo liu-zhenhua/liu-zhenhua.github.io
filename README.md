@@ -5,7 +5,7 @@
 ## 本地查看
 
 ```bash
-cd /home/liuzhenhua/personal/zhliu.github.io
+cd /home/liuzhenhua/personal/liu-zhenhua.github.io
 python3 scripts/build.py --output _site
 python3 -m http.server 8000 --bind 127.0.0.1 --directory _site
 ```
@@ -47,17 +47,17 @@ python3 -m http.server 8000 --bind 127.0.0.1 --directory _site
 
 仓库内已包含 `.github/workflows/pages.yml`：推送到 `main` 后用 Python 构建，再通过 GitHub Actions 部署 `_site`。只上传生成的静态页面与素材。
 
-1. 确认最终 GitHub 用户名，将仓库命名为 `<username>.github.io`。
-2. 将 `data/profile.json` 的 `site_url` 设为 `https://<username>.github.io/`。构建时会生成 canonical、站点地图和 robots.txt。
+1. 站点仓库为 `liu-zhenhua/liu-zhenhua.github.io`。
+2. `data/profile.json` 的 `site_url` 为 `https://liu-zhenhua.github.io/`。构建时会生成 canonical、站点地图和 robots.txt。
 3. 在仓库 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**。
 4. 推送 `main`，等待 `Deploy academic homepage` 成功。
 
-`zhliu.github.io` 是 GitHub 用户 `zhliu` 对应的用户站点。当前环境登录的是 `liu-zhenhua`，其用户站点对应 `liu-zhenhua.github.io`。在 `liu-zhenhua` 账号下创建名为 `zhliu.github.io` 的仓库不会获得 `zhliu.github.io` 域名。
+主页地址：[https://liu-zhenhua.github.io/](https://liu-zhenhua.github.io/)。
 
 ## 当前内容来源与待补信息
 
 见 [CONTENT_SOURCES.md](CONTENT_SOURCES.md)。页面已填入用户确认的姓名、职位和邮箱，以及通过论文原文、合作者主页和官方代码仓库交叉核实的 5 篇精选论文。真实头像未提供，暂使用姓名缩写。
 
-站点已按用户指定的 `https://zhliu.github.io/` 配置，尚未部署；当前登录账号 `liu-zhenhua` 缺少目标账号 `zhliu` 的发布权限。若最终改用 `liu-zhenhua.github.io`，需同时修改仓库名称和 `site_url`，然后重新构建。
+用户已确认这 5 篇论文均属于本人，并选择使用 `liu-zhenhua.github.io` 作为最终地址。
 
 Poppins 字体按 SIL Open Font License 发行，授权文本保存在 `assets/fonts/OFL.txt`。网站未复制参考主页的个人照片、论文、履历或分析脚本。
