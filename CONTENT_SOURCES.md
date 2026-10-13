@@ -32,7 +32,7 @@
 
 | 论文 | 正式记录 / 原文 |
 | --- | --- |
-| TaskGround | [arXiv:2605.18109](https://arxiv.org/abs/2605.18109)，2026；[项目及代码](https://aaronfengzy.github.io/TaskGround/)。 |
+| TaskGround | 用户于 2026-10-13 确认发表信息为 NeurIPS 2026；[arXiv:2605.18109](https://arxiv.org/abs/2605.18109)、[项目及代码](https://aaronfengzy.github.io/TaskGround/)。 |
 | Athena | [arXiv v5](https://arxiv.org/abs/2506.09532v5) 明确标注 TMLR 2026；[正式记录](https://openreview.net/forum?id=unWmplHccF)。 |
 | Jakiro | [ACL Anthology 2026.acl-long.487](https://aclanthology.org/2026.acl-long.487/)；正式标题为 *Jakiro: Boosting Speculative Decoding via Decoupled MoE*，四位作者。保留用户所给预印本标题的搜索支持及 arXiv 链接。 |
 | Double Rounding | [Crossref / AAAI](https://doi.org/10.1609/aaai.v40i26.39345)，AAAI 2026，四位作者；[预印本](https://arxiv.org/abs/2502.01199) 的标题为 *Nearly Lossless Adaptive Bit Switching*。 |
